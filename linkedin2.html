@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <style>
+      header {
+  background-color: #dcdbdb;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+.right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.right a.signup {
+  background-color: #dfe1df;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.right a.login {
+  border: 1px solid #fff;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Pappins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .login-box {
+            background: #fff;
+            padding: 30px 40px;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Added box shadow */
+        }
+
+        .login-box img {
+            width: 150px; /* Adjusted logo size */
+            margin-bottom: 20px; /* Added margin */
+        }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0077B5; /* LinkedIn's blue */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .login-box button:hover {
+            background-color: #005f8d; /* Darker blue on hover */
+        }
+
+        .login-box p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="left">Scratch</div>
+    <div class="right">
+      <a href="#" class="signup">Signup</a>
+      <a href="#" class="login">Login</a>
+    </div>
+  </header>
+
+<div class="login-box">
+
+    Email
+    <br><input type="text" >
+    Password
+    <br>
+    <input type="password">
+    <button>Sign in</button>
+</div>
+
+</body>
+</html>

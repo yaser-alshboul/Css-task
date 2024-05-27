@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - LinkedIn</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+.input-group label {
+    position: absolute ;
+    display: block;
+    margin-left: 5px;
+    color: #666;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+ 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+.show-password {
+    position: absolute;
+    font-size: 12px;
+    color: #0077b5;
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0077b5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #055a8c;
+}
+
+.or-divider {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.or-divider span {
+    background-color: #f4f4f4;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
+.apple-sign-in {
+    margin-bottom: 20px;
+}
+
+.new-to-linkedin {
+    text-align: center;
+}
+
+.new-to-linkedin p {
+    margin-bottom: 5px;
+}
+
+.new-to-linkedin a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-language {
+    margin-top: 10px;
+}
+
+.footer-language input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 150px;
+}
+
+.footer-info {
+    margin-top: 20px;
+}
+
+.footer-info span {
+    color: #666;
+}
+
+    </style>
+</head>
+<body>
+   <div class="logo">
+        <img src="https://www.tacoma.uw.edu/sites/default/files/2023-07/LinkedIn_Logo_0.png" alt="LinkedIn" width="50" height="30">
+        
+    </div>
+    <div class="container">
+        <h1>Sign in</h1>
+        <p>Stay updated on your professional world</p>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="email_phone">Email or Phone</label>
+                <input type="text" id="email_phone" name="email_phone" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="show-password">show</span>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+        <div class="or-divider">
+            <span>or</span>
+        </div>
+        <div class="apple-sign-in">
+            <button>Sign in with Apple</button>
+        </div>
+        <div class="new-to-linkedin">
+            <p>New to LinkedIn? <a href="#">Join now</a></p>
+           
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+
+        <img src="linkedin_logo.png" alt="LinkedIn Logo" width="100" height="100">
+            <a href="#">User Agreement</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Community Guidelines</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Copyright Policy</a>
+            <a href="#">Send Feedback</a>
+            <a href="#">Language1</a>
+        </div>
+        <div class="footer-language">
+            <span>Language</span>
+            <input type="text" placeholder="Type here to search">
+        </div>
+        <div class="footer-info">
+            <span>&copy; 2021 LinkedIn</span>
+        </div>
+    </footer>
+</body>
+</html>
